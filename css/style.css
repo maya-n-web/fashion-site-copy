@@ -56,6 +56,7 @@ header {
   border-bottom : 1px solid rgb(149, 145, 145);
   font-size: 0.8rem;
   font-weight: 300;
+  margin-bottom: 50px;
 }
 
 .nav-menu{
@@ -74,16 +75,27 @@ header {
 
 /* /* メイン  */
 
+.main {
+  display: flex;
+  flex-direction:row;
+}
+
 /* 写真*/
 .pic {
-  display: flex;
-  justify-content: flex-end;
 }
 
 
 /* アイテムインフォ */
 
 .info {
+  width: 200px ;
+  margin: 30px 150px 0;
+}
+
+h1 {
+
+}
+.ex {
   
 }
 
