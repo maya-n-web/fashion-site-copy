@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
 /* 共通 */
-html {
-  font-size: 100%;
+  html {
+  font-size: 62.5%;
+  box-sizing:border-box;
 }
 
 body {
@@ -13,10 +14,12 @@ body {
 }
 
 .wrapper {
-  margin-left: 300px ;
-  margin-right:300px;
-  text-align: center;
+  /* margin-left: 200px ;
+  margin-right:200px;
   max-width: 1000px;
+  text-align: center;
+  /* display: flex; */
+  flex-direction:column; */
 }
 
 li {
@@ -29,10 +32,6 @@ a {
 }
 
 
-.main {
-  display: flex;
-  justify-content: flex-start;
-}
 
 
 /* ヘッダー */
@@ -40,9 +39,11 @@ a {
 header {
   margin-top: 50px;
   margin-bottom: 50px;
+  justify-content :center;
+
 }
 .logo {
-  width: 100px;
+  width: 110px;
   height: auto;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -50,13 +51,14 @@ header {
 }
 
 .main-nav {
+  width: 100%;
   display : flex;
   align-items:flex-end;
   justify-content: space-between;
   border-bottom : 1px solid rgb(149, 145, 145);
-  font-size: 0.8rem;
-  font-weight: 300;
   margin-bottom: 50px;
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 .nav-menu{
@@ -70,18 +72,23 @@ header {
   display : flex;
   line-height: 5;
   padding: 0 100px 0px;
-  gap: 1rem;  
+  gap: 15px;  
 }
 
 /* /* メイン  */
 
 .main {
   display: flex;
-  flex-direction:row;
+  justify-content: center;
+  text-align :left;
+  margin-bottom: 0 ;
 }
 
 /* 写真*/
 .pic {
+  width: 400px ;
+  height: 500px;
+  
 }
 
 
@@ -89,13 +96,23 @@ header {
 
 .info {
   width: 200px ;
-  margin: 30px 150px 0;
+  margin: 30px 50px 0;
 }
 
 h1 {
+width: 340px;
+height: 60;
 
+border-bottom: 1px solid grey ;
+border-top: 1px solid grey ;
+padding: 20px;
+margin: 0 0 0 0;
 }
+
+
 .ex {
+  width: 340px;
+  height: 140px;
   
 }
 
