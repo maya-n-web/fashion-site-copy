@@ -189,6 +189,11 @@ select {
   background-color: #fff;
   cursor: pointer;  
   
+  /* リセットcssで消えている矢印UIを復活させる */
+  appearance: menulist;
+  -moz-appearance: menulist;
+
+  
 }
 
 
@@ -212,4 +217,13 @@ select {
 .size-table2 th {
   background-color: #f1eded;
   padding: 1rem;
+}
+
+
+
+/* フッター */
+.footer {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 1.5rem;
 }
