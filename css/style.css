@@ -14,6 +14,8 @@ body {
   font-style: normal;
   font-family: 'Raleway', sans-serif;
   margin: 0 auto;
+  box-sizing: border-box;
+
   
   
 }
@@ -66,15 +68,15 @@ header {
 .nav-menu {
   display: flex;
   line-height: 5;
-  padding: 0 100px 0px 30px;
-  gap: 1rem;
+  gap: 2rem;
+  margin-left:3rem  ;
 }
 
 .nav-right-menu {
   display: flex;
   line-height: 5;
-  padding: 0 100px 0px;
-  gap: 15px;
+  gap: 2rem;
+  margin-right:3rem ;
 }
 
 /* メイン  */
@@ -82,7 +84,6 @@ header {
 .main {
   display: flex;
   justify-content: center;
-  text-align: left;
   margin-bottom: 0;
 }
 
@@ -229,10 +230,15 @@ font-weight: 300;
 .wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 100%;
   padding: 10px;
   margin: 0 auto;
   height: auto;
+}
+.main-nav {
+  text-align: center;
+  margin: 0px;
 }
 
 
@@ -244,9 +250,6 @@ font-weight: 300;
   align-items: center;
 }
 
-.main-nav {
-  text-align: center;
-}
 
 .nav-right-menu {
   display: none;
@@ -264,9 +267,8 @@ font-weight: 300;
 .info {
   width: 100%;
   height: auto;
-  display: flex;
-  justify-content: center;
-  max-width: none;  
  }
+
+ 
 
 }
